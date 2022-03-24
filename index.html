@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="FiltreBlok">
+        <!-- <div class="Ftit"><a href="/araca-gore-lastik-arama">ARACA GÖRE LASTİK ARAMA</a></div> -->
+        <!-- <div class="Ftit">EBATLARA GÖRE LASTİK ARAMA</div> -->
+        <div class="TeknikUl">
+            <div class="Marka-Select"><select><option value="0">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; MARKA</option><option value="7">APlus</option><option value="56">Barum</option><option value="16">BFGoodrich</option><option value="13">Bridgestone</option><option value="17">Continental</option><option value="79">Cooper</option><option value="85">Cratos</option><option value="70">Dayton</option><option value="6">Debica</option><option value="18">Dunlop</option><option value="64">Evergreen</option><option value="54">Falken</option><option value="65">Farroad</option><option value="86">Federal</option><option value="14">Formula</option><option value="4">Fulda</option><option value="85">General</option><option value="73">Gislaved</option><option value="66">Goalstar</option><option value="3">Goodyear</option><option value="71">Gripmax</option><option value="50">GTRadial</option><option value="46">Hankook</option><option value="95">Kelly</option><option value="21">Kinforest</option><option value="9">Kormoran</option><option value="19">Kumho</option><option value="75">Lanvigator</option><option value="63">Laufenn</option><option value="2">Lassa</option><option value="88">Marshal</option><option value="80">Maxxis</option><option value="47">Matador</option><option value="89">Mickey Thomson</option><option value="15">Michelin</option><option value="57">Milestone</option><option value="12">Momo</option><option value="81">Motrio</option><option value="74">MRF</option><option value="90">Nankang</option><option value="67">Neuton</option><option value="53">Nexen</option><option value="51">Nokian</option><option value="48">Orium</option><option value="10">Petlas</option><option value="11">Pirelli</option><option value="8">Roadstone</option><option value="22">Saferich</option><option value="5">Sava</option><option value="55">Semperit</option><option value="84">Starmaxx</option><option value="91">Strial</option><option value="20">Syron</option><option value="92">Tatko</option><option value="49">Tigar</option><option value="76">Toyo</option><option value="72">Tracmax</option><option value="93">Triangle</option><option value="68">Windforce</option><option value="69">Winrun</option><option value="1">Yokohama</option> </select></div>
+            <div class="Arama-Select"><select><option value="0">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; MEVSİM</option><option value="16,116">YAZ</option><option value="16,117">KIŞ</option><option value="16,118">DÖRT MEVSİM</option> </select></div>
+        <div class="Arama-Select"><select><option value="0">&nbsp; &nbsp;&nbsp; &nbsp;TABAN GENİŞLİĞİ</option><option value="8,391">145</option><option value="8,123">150</option><option value="8,124">155</option><option value="8,125">160</option><option value="8,126">165</option><option value="8,128">170</option><option value="8,129">175</option><option value="8,132">185</option><option value="8,133">195</option><option value="8,135">205</option><option value="8,136">210</option><option value="8,137">215</option><option value="8,138">225</option><option value="8,140">235</option><option value="8,141">245</option><option value="8,142">255</option><option value="8,144">265</option><option value="8,145">275</option><option value="8,392">280</option><option value="8,147">285</option><option value="8,149">295</option><option value="8,393">300</option><option value="8,401">305</option><option value="8,153">315</option><option value="8,394">320</option><option value="8,155">325</option><option value="8,395">340</option><option value="8,396">360</option><option value="8,397">380</option><option value="8,158">385</option><option value="8,398">420</option><option value="8,159">445</option><option value="8,399">460</option><option value="8,400">480</option><option value="8,162">650</option><option value="8,190">0</option><option value="8,190">1</option><option value="8,150">3</option><option value="8,161">6</option><option value="8,168">6,5</option><option value="8,163">7</option><option value="8,164">7,5</option><option value="8,165">8,25</option><option value="8,166">8,5</option><option value="8,167">9</option><option value="8,119">11</option><option value="8,120">12</option><option value="8,121">13</option><option value="8,122">14</option><option value="8,127">17,5</option><option value="8,131">18</option><option value="8,134">20,5</option><option value="8,139">23,5</option><option value="8,143">26,5</option><option value="8,146">28</option><option value="8,148">29,5</option><option value="8,151">30</option><option value="8,152">31</option><option value="8,154">32</option><option value="8,156">33</option><option value="8,157">35</option><option value="8,160">50</option><option value="8,383">-</option> </select></div>
+        <div class="Arama-Select"><select><option value="0">&nbsp; &nbsp;&nbsp; &nbsp;KESİT ORANI</option><option value="11,402">25</option><option value="11,173">30</option><option value="11,174">35</option><option value="11,175">40</option><option value="11,176">45</option><option value="11,177">50</option><option value="11,178">55</option><option value="11,179">60</option><option value="11,180">65</option><option value="11,181">70</option><option value="11,182">75</option><option value="11,183">80</option><option value="11,184">85</option><option value="11,186">95</option><option value="11,187">625</option><option value="11,188">640</option><option value="11,189">650</option><option value="11,169">0</option><option value="11,185">9,5</option><option value="11,170">10,5</option><option value="11,171">11,5</option><option value="11,172">12,5</option><option value="11,385">-</option> </select></div>
+        <div class="Arama-Select"><select><option value="0">&nbsp; &nbsp;&nbsp; &nbsp;JANT ÇAPI</option><option value="12,191">8</option><option value="12,192">9</option><option value="12,193">10</option><option value="12,194">12</option><option value="12,195">13</option><option value="12,196">14</option><option value="12,197">15</option><option value="12,198">16</option><option value="12,199">17</option><option value="12,200">17,5</option><option value="12,201">18</option><option value="12,202">19</option><option value="12,403">19,5</option><option value="12,203">20</option><option value="12,204">21</option><option value="12,205">22</option><option value="12,206">22,5</option><option value="12,405">23</option><option value="12,207">24</option><option value="12,208">25</option><option value="12,386">28</option><option value="12,387">30</option><option value="12,209">33</option><option value="12,388">34</option><option value="12,389">36</option><option value="12,390">38</option><option value="12,382">-</option> </select></div>
+        
+        <!-- <div class="Arama-Select"><select><option value="0">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; M E V S İ M</option><option value="16,116">YAZ</option><option value="16,117">KIŞ</option><option value="16,118">DÖRT MEVSİM</option> </select></div> -->
+        <!-- <div class="Marka-Select"><select><option value="0">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; M A R K A</option><option value="7">APlus</option><option value="56">Barum</option><option value="16">BFGoodrich</option><option value="13">Bridgestone</option><option value="17">Continental</option><option value="79">Cooper</option><option value="85">Cratos</option><option value="70">Dayton</option><option value="6">Debica</option><option value="18">Dunlop</option><option value="64">Evergreen</option><option value="54">Falken</option><option value="65">Farroad</option><option value="86">Federal</option><option value="14">Formula</option><option value="4">Fulda</option><option value="85">General</option><option value="73">Gislaved</option><option value="66">Goalstar</option><option value="3">Goodyear</option><option value="71">Gripmax</option><option value="50">GTRadial</option><option value="46">Hankook</option><option value="95">Kelly</option><option value="21">Kinforest</option><option value="9">Kormoran</option><option value="19">Kumho</option><option value="75">Lanvigator</option><option value="63">Laufenn</option><option value="2">Lassa</option><option value="88">Marshal</option><option value="80">Maxxis</option><option value="47">Matador</option><option value="89">Mickey Thomson</option><option value="15">Michelin</option><option value="57">Milestone</option><option value="12">Momo</option><option value="81">Motrio</option><option value="74">MRF</option><option value="90">Nankang</option><option value="67">Neuton</option><option value="53">Nexen</option><option value="51">Nokian</option><option value="48">Orium</option><option value="10">Petlas</option><option value="11">Pirelli</option><option value="8">Roadstone</option><option value="22">Saferich</option><option value="5">Sava</option><option value="55">Semperit</option><option value="84">Starmaxx</option><option value="91">Strial</option><option value="20">Syron</option><option value="92">Tatko</option><option value="49">Tigar</option><option value="76">Toyo</option><option value="72">Tracmax</option><option value="93">Triangle</option><option value="68">Windforce</option><option value="69">Winrun</option><option value="1">Yokohama</option> </select></div> -->
+        </div>
+        <!-- <div class="Arabtn"><a href="/lastik?marka=16&amp;filtre=[{&quot;FilterType&quot;:&quot;tdetay&quot;,&quot;FilterId&quot;:&quot;0&quot;,&quot;FilterValues&quot;:[&quot;undefined&quot;]},{&quot;FilterType&quot;:&quot;tdetay&quot;,&quot;FilterId&quot;:&quot;0&quot;,&quot;FilterValues&quot;:[&quot;undefined&quot;]},{&quot;FilterType&quot;:&quot;tdetay&quot;,&quot;FilterId&quot;:&quot;0&quot;,&quot;FilterValues&quot;:[&quot;undefined&quot;]},{&quot;FilterType&quot;:&quot;tdetay&quot;,&quot;FilterId&quot;:&quot;16&quot;,&quot;FilterValues&quot;:[&quot;116&quot;]}]" id="SonucBul">Lastik Bul</a></div> -->
+        </div>
+        <div class="searchbox">
+            <input class="input_box" type="text" name="" placeholder="search">
+            <a class="btn" href="#">
+                <i class="fa fa-search"></i>
+            </a>
+            
+        </div>
+        <style>
+            body
+            {
+                margin: 0;
+                padding-left: 0;
+                background-color: #1abc;
+            }
+            .searchbox
+            {
+                position: absolute;
+                top: 0px;
+                left: 47vw;
+                /* transform: scale(-50%,-50%); */
+                background-color: #2f3640;
+                height: 40px;
+                border-radius: 40px;
+                padding: 0;
+    
+            }
+            .input_box
+            {
+                border: none;
+                outline: none;
+                background: none;
+                float: left;
+                padding: 0;
+                color: #fff;
+                font-size: 16px;
+                transition: 0.4s all;
+                line-height: 40px;
+                width: 0px;
+            }
+            .btn
+            {
+                color: #1abc9c;
+                float: right;
+                text-decoration: none;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border-radius: 50%;
+            }
+            .searchbox:hover .input_box
+            {
+                width: 240px;
+                padding:px;
+            }
+            .searchbox:hover .btn
+            {
+                background-color: #fff;
+    
+            }
+    
+    
+        </style>
+        <script src="https://use.fontawesome.com/cf1ced88d2.js"></script>
+        <style>
+            /* .FiltreBlok {
+                padding: 10px 19px;
+                width: 456px;
+            }
+            .FiltreBlok {
+    
+    
+    padding: 47px 19px 60px;
+    width: 600px;
+    text-align: center;
+    } */
+    * {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    }
+    div {
+    display: inline;
+    }
+    body {
+    -webkit-text-size-adjust: 100%;
+    }
+    body, td, th, input, textarea, select, a {
+    font-size: 12px;
+    }
+    body {
+    background: #fff;
+    color: #000;
+    font-family: open sans,sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .FiltreBlok .Ftit, .FiltreBlok .Ftit a {
+    font-size: 19px;
+    }
+    /* .FiltreBlok .Ftit {
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    
+    width: 100%;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 25px -1px #000;
+    line-height: 55px;
+    font-size: 25px;
+    font-weight: 700;
+    } */
+    .FiltreBlok .TeknikUl select {
+    display: inline-block;
+    border: 2px solid #2ecc71;
+    vertical-align: top;
+    /* min-width: 160px; */
+    transition: top .5s;
+    /* margin: 0 18px; */
+    background: #fafbfc;
+    /* box-shadow: inset 0 0 25px -1px rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
+    height: 30px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c3e50;
+    background-color: #2c3e50;
+    }
+    .FiltreBlok .Arabtn a {
+    display: inline;
+    /* vertical-align: top; */
+    
+    color: black;
+    /* box-shadow: inset 0 0 25px -1px #000; */
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 100px;
+    padding: 0 35px;
+    border: 2px solid #2ecc71;
+    border-radius: 1px;
+    }
+    
+            
+            </style>
+            
+            <script>
+                 if ($('.Arama-Select').length > 0) {
+        var Degelerim;
+        var MarkaDegelerim;
+        var mMarkaDegelerim;
+        var Say = 0;
+        var SayOrj = 0;
+        var Gonderim = false;
+        var f_filtreparcala;
+        var f_first;
+        var m_first;
+        var mm_first;
+        var f_last;
+        var f_baslangic = 'filtre=[';
+        var ayrac = ',';
+        var degisken;
+    
+        $('.Arama-Select select').change(function(){
+            Say++;
+            SayOrj++;
+            $(".Arama-Select").each(function (index) {
+                if ($(this).find("> select").val() != "0") {
+                    Degelerim = $(this).find("> select").val();
+                    f_filtreparcala = Degelerim.split(",");
+                    f_first = f_filtreparcala[0];
+                    f_last = f_filtreparcala[1];
+                    f_baslangic += '{"FilterType":"tdetay","FilterId":"' + f_first + '","FilterValues":["' + f_last +'"]}' + ayrac + '';
+                }
+    
+                if (index == 3 && Say > 0) {
+                    f_baslangic += ']';
+                    f_baslangicparca = f_baslangic.split(',]');
+                    f_baslangicparca1 = f_baslangicparca[0];
+                    f_baslangicparca1 += ']';
+                    $('#SonucBul').attr('href',"/lastik?"+f_baslangicparca1);
+                    $('.Marka-Select').each(function() {
+                        if ($('.Marka-Select select').val() != "0") {
+                            MarkaDegelerim = $('.Marka-Select select').val();
+                            m_first = MarkaDegelerim;
+                            m_baslangic = 'marka='+ m_first + '&';
+                            $('#SonucBul').attr('href','');
+                            $('#SonucBul').attr('href',"/lastik?"+ m_baslangic+f_baslangicparca1);
+                        }
+                    });
+                    f_baslangic = 'filtre=[';
+                }
+            });
+        });
+        $('.Marka-Select select').change(function () {
+            Say++;
+            SayOrj++;
+            mMarkaDegelerim = $('.Marka-Select select').val();
+            mm_baslangic = 'marka='+ mMarkaDegelerim+ '&';
+            $('#SonucBul').attr('href','');
+            $('#SonucBul').attr('href','/lastik?'+ mm_baslangic);
+    
+            $(".Arama-Select").each(function (index) {
+                if ($(this).val() != "0") {
+                    Degelerim = $(this).find("> select").val();
+                    f_filtreparcala = Degelerim.split(",");
+                    f_first = f_filtreparcala[0];
+                    f_last = f_filtreparcala[1];
+                    f_baslangic += '{"FilterType":"tdetay","FilterId":"' + f_first + '","FilterValues":["' + f_last +'"]}' + ayrac + '';
+    
+                    if (index == 3 && Say > 0) {
+                        f_baslangic += ']';
+                        f_baslangicparca = f_baslangic.split(',]');
+                        f_baslangicparca1 = f_baslangicparca[0];
+                        f_baslangicparca1 += ']';
+                        $('#SonucBul').attr('href','');
+                        $('#SonucBul').attr('href',"/lastik?"+mm_baslangic+f_baslangicparca1);
+                        f_baslangic = 'filtre=[';
+                    }
+                }
+            });
+    
+        });
+    }
+    
+    
+            </script>
+    
+</body>
+</html>
+
+
+
